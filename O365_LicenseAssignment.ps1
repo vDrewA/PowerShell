@@ -1,28 +1,41 @@
-﻿###################################################################################################
-# This script will export a list of all Microsoft Online/Office365 users along with their         #
-# assigned license SKUs.                                                                          #
-#                                                                                                 #
-# Author(s):                                                                                      #
-# -Andrew Anderson (on Twitter @drewjanderson)                                                    #
-#                                                                                                 #
-# Last Updated:                                                                                   #
-# -4/15/2016                                                                                      #
-#                                                                                                 #
-# Prerequisites:                                                                                  #
-# -PowerShell 2.0                                                                                 #
-# -Azure AD PowerShell Module (follow steps below to install)                                     #
-#    1. Microsoft Online Services Sign-In Assistant for IT Professionals RTW                      #
-#       https://www.microsoft.com/en-us/download/details.aspx?id=41950                            #
-#    2. Azure Active Directory Module for Windows PowerShell (64-bit version)                     #
-#       http://go.microsoft.com/fwlink/p/?linkid=236297                                           #
-###################################################################################################
+﻿
+<#PSScriptInfo
 
-###################################################################################################
-# ToDo:                                                                                           #
-# -Correlate AccountSkuIds with common names that are recognizable in Microsoft Online admin      #
-# interface                                                                                       #
-# -Report overall license usage in output file                                                    #
-###################################################################################################
+.VERSION 1.0.2
+
+.GUID 9fb9489c-2584-4b71-8122-abd3d9d9d95b
+
+.AUTHOR Andrew Anderson - Twitter @drewjanderson
+
+.COMPANYNAME AndersonTech
+
+.COPYRIGHT 
+
+.TAGS MSOL Office365 Licenses
+
+
+.PROJECTURI 
+
+.ICONURI 
+
+.EXTERNALMODULEDEPENDENCIES Microsoft Online Services Sign-In Assistant for IT Professionals RTW, Azure Active Directory Module for Windows PowerShell
+
+.REQUIREDSCRIPTS 
+
+.EXTERNALSCRIPTDEPENDENCIES
+
+.RELEASENOTES
+ Included External Module Dependencies in metadata.
+
+
+#>
+
+<# 
+
+.DESCRIPTION 
+ This script will export a list of all Microsoft Online/Office365 users along with their assigned license SKUs. 
+
+#> 
 
 # Import the Azure Active Directory module into the current PS session
 Import-Module Azure
