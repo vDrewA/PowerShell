@@ -13,6 +13,7 @@
 
 .TAGS MSOL Office365 Licenses
 
+.LICENSEURI https://github.com/vDrewA/PowerShell/blob/master/LICENSE.txt
 
 .PROJECTURI 
 
