@@ -1,4 +1,4 @@
-﻿
+
 <#PSScriptInfo
 
 .VERSION 1.0.2
@@ -13,13 +13,13 @@
 
 .TAGS MSOL Office365 Licenses
 
-.LICENSEURI https://github.com/vDrewA/PowerShell/blob/master/LICENSE.txt
+.LICENSEURI https://github.com/vDrewA/PowerShell/blob/master/LICENSE
 
 .PROJECTURI 
 
 .ICONURI 
 
-.EXTERNALMODULEDEPENDENCIES Microsoft Online Services Sign-In Assistant for IT Professionals RTW, Azure Active Directory Module for Windows PowerShell
+.EXTERNALMODULEDEPENDENCIES Microsoft Online Services Sign-In Assistant for IT Professionals RTW, AzureActiveDirectory
 
 .REQUIREDSCRIPTS 
 
